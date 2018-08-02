@@ -7,6 +7,7 @@ function panggilObject(){
   console.log(mobil)
   console.log(mobil.warna)
   console.log(mobil.type)
+  console.log(mobil.harga)
 }
 
 panggilObject()
