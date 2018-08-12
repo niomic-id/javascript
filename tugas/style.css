@@ -62,7 +62,7 @@ body {
 .setRow{
     background-position: center;
     padding-left: 17px;
-    border: 2px solid white;
+    border: 2px solid black;
     width: 20%;
     position: relative;
     left:0%;
