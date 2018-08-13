@@ -4,7 +4,7 @@ body {
 
 .container {
   background:black;
-  background-position:center  ;
+  background-position:center;
   height: 100%;
   width:100%;
   position:absolute;
@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-color:black;
+  background: black;
   background-position: center;
   height:10%;
   width:100%;
@@ -27,6 +27,7 @@ body {
   height:100%;
   width:10%;
   position:relative;
+  left:10%;
 }
 
 .gambarlogo{
@@ -44,13 +45,14 @@ body {
   height:100%;
   width:40%;
   position: relative;
+  left: 10%;
   display:flex;
   letter-spacing: 2px;
   float:right;
 }
 
 .setTable{
-  border: 2px solid black;
+  border: 2px solid none;
   height: 100%;
   position: relative;
   left: 5%;
@@ -62,7 +64,7 @@ body {
 .setRow{
     background-position: center;
     padding-left: 17px;
-    border: 2px solid black;
+    border: 2px solid none;
     width: 20%;
     position: relative;
     left:0%;
@@ -75,21 +77,25 @@ body {
 }
 
 .textSearch{
-  background: black;
-  color: darkgrey;
-  border:0.1px solid black;
-  opacity: 2;
+  background: transparent;
+  color: black;
+  border: 1px none black;
+  opacity: 3;
 }
 
 .textButton{
     background: black;
-    color: darkgrey;
+    color: grey;
     border : 0.1px solid black;
     opacity: 2;
 }
 
 .setSize{
   height:70%;
+}
+
+.setFont{
+  color: grey;
 }
 
 h1{
@@ -101,14 +107,32 @@ h1{
 }
 
 .body{
-  background-color: grey;
+  background-color:black;
   background-position: center;
   height:80%;
   width:100%;
   position: relative;
 }
+
+.headBody {
+  background:radial-gradient(circle,grey,black, grey );
+  height:50%;
+  width:100%;
+  position:relative;
+  opacity: 7;
+}
+
+.footBody{
+  background:black transparent;
+  height:50%;
+  width: 100%;
+  position: relative;
+  opacity:7;
+
+}
+
 .footer {
-  background-color: darkgrey;
+  background: linear-gradient(black 10%, darkgrey 5%, black 50%, darkgrey 5%, black 10%);
   background-position: center;
   height:10%;
   width:100%;
