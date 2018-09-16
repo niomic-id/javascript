@@ -8,18 +8,21 @@ body {
   height: 100%;
   width:100%;
   position:absolute;
-  right:-1;
-  left:-1;
-  opacity: 3;
+  top:0;
+  right:0;
+  left:0;
+  opacity:1;
 }
 
 .header {
   background: black;
   background-position: center;
-  height:10%;
+  height:8%;
   width:100%;
   position: relative;
+  top: 2%;
   display: inline-flex;
+  opacity: 1;
 }
 
 .logo{
@@ -36,7 +39,7 @@ body {
   width: 100%;
   position: relative;
   left:10%;
-  opacity:7;
+  opacity:0.7;
 }
 
 .menu {
@@ -109,7 +112,7 @@ h1{
 .body{
   background-color:black;
   background-position: center;
-  height:80%;
+  height:84%;
   width:100%;
   position: relative;
 }
@@ -122,19 +125,59 @@ h1{
   opacity: 7;
 }
 
+.setFrame{
+  background-position: center;
+  position: relative;
+  top: 12%;
+  left: 25%;
+}
+
+.callFrame{
+  position: relative;
+  border: none;
+
+}
+
 .footBody{
   background:black transparent;
   height:50%;
   width: 100%;
   position: relative;
-  opacity:7;
-
+  opacity:1;
 }
 
+.barMenu{
+  background:grey;
+  object-position:center;
+  height:8%;
+  width: 25%;
+  position:relative;
+  left:25%;
+  right:25%;
+  opacity:0.3;
+  display: inline-block;
+}
+
+#barMenu1:hover{
+  background: white;
+  height:100%;
+  width:50%;
+  position: relative;
+}
+
+#barMenu2:hover{
+  background: white;
+  height:100%;
+  width:50%;
+  position: relative;
+
+}
 .footer {
   background: linear-gradient(black 10%, darkgrey 5%, black 50%, darkgrey 5%, black 10%);
   background-position: center;
-  height:10%;
+  height:8%;
   width:100%;
-  position:relative;
+  position:fixed;
+  bottom: 2%;
+  opacity: 0.3;
 }

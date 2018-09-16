@@ -1,9 +1,11 @@
 var perulangan = () =>{
+  var kota = ["jakarta","bandung","surabaya"]
   var i = 0;
-  for (i = 0; i < 5; i++){
-    console.log("test ",i)
+  for (i = 0; i < kota.length; i++){
+    console.log('kota :'+kota[i])//item
+    console.log(i)//index
+    console.log(kota)//array
   }
 }
 
 perulangan()
-s
