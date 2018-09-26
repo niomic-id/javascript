@@ -1,0 +1,7 @@
+.container{
+  background:linear-gradient(yellow, green, red);
+  height:100%;
+  width: 100%;
+  opacity: 0.6;
+  position: relative;
+}

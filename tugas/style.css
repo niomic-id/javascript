@@ -1,0 +1,183 @@
+body {
+  background: white;
+}
+
+.container {
+  background:black;
+  background-position:center;
+  height: 100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  opacity:1;
+}
+
+.header {
+  background: black;
+  background-position: center;
+  height:8%;
+  width:100%;
+  position: relative;
+  top: 2%;
+  display: inline-flex;
+  opacity: 1;
+}
+
+.logo{
+  background-position:left;
+  height:100%;
+  width:10%;
+  position:relative;
+  left:10%;
+}
+
+.gambarlogo{
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left:10%;
+  opacity:0.7;
+}
+
+.menu {
+  color: darkgrey;
+  background-position: center;
+  height:100%;
+  width:40%;
+  position: relative;
+  left: 10%;
+  display:flex;
+  letter-spacing: 2px;
+  float:right;
+}
+
+.setTable{
+  border: 2px solid none;
+  height: 100%;
+  position: relative;
+  left: 5%;
+}
+
+.setTable{
+    border-spacing:15px;
+}
+.setRow{
+    background-position: center;
+    padding-left: 17px;
+    border: 2px solid none;
+    width: 20%;
+    position: relative;
+    left:0%;
+}
+
+.setPosition{
+  position: relative;
+  bottom: 7%;
+  left:10%;
+}
+
+.textSearch{
+  background: transparent;
+  color: black;
+  border: 1px none black;
+  opacity: 3;
+}
+
+.textButton{
+    background: black;
+    color: grey;
+    border : 0.1px solid black;
+    opacity: 2;
+}
+
+.setSize{
+  height:70%;
+}
+
+.setFont{
+  color: grey;
+}
+
+h1{
+  color: darkgrey;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+.body{
+  background-color:black;
+  background-position: center;
+  height:84%;
+  width:100%;
+  position: relative;
+}
+
+.headBody {
+  background:radial-gradient(circle,grey,black, grey );
+  height:50%;
+  width:100%;
+  position:relative;
+  opacity: 7;
+}
+
+.setFrame{
+  background-position: center;
+  position: relative;
+  top: 12%;
+  left: 25%;
+}
+
+.callFrame{
+  position: relative;
+  border: none;
+
+}
+
+.footBody{
+  background:black transparent;
+  height:50%;
+  width: 100%;
+  position: relative;
+  opacity:1;
+}
+
+.barMenu{
+  background:grey;
+  object-position:center;
+  height:8%;
+  width: 25%;
+  position:relative;
+  left:25%;
+  right:25%;
+  opacity:0.3;
+  display: inline-block;
+}
+
+#barMenu1:hover{
+  background: white;
+  height:100%;
+  width:50%;
+  position: relative;
+}
+
+#barMenu2:hover{
+  background: white;
+  height:100%;
+  width:50%;
+  position: relative;
+
+}
+.footer {
+  background: linear-gradient(black 10%, darkgrey 5%, black 50%, darkgrey 5%, black 10%);
+  background-position: center;
+  height:8%;
+  width:100%;
+  position:fixed;
+  bottom: 2%;
+  opacity: 0.3;
+}
