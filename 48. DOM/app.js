@@ -1,0 +1,1 @@
+console.log('Menuliskan Code JavaScript di Browser dengan cara External')
